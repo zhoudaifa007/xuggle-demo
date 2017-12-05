@@ -37,7 +37,7 @@ public class VideoInfo {
         long bitRate = container.getBitRate();
 
         System.out.println("Number of streams: " + numStreams);
-        System.out.println("Duration (ms): " + duration);
+        System.out.println("Duration (us): " + duration);
         System.out.println("File Size (bytes): " + fileSize);
         System.out.println("Bit Rate: " + bitRate);
 
